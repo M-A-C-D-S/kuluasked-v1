@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas e respostas</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <p>Bem vindo, <%= nome %></p>
+    <p>Sua linguagem de programação preferida é: <%= lang %></p>
+    <p>Você está codificando para a empresa: <%= empresa %></p>
+
+    <% if(msg == true){ %> <!-- Sem = para utilizar uma expressão -->
+        <h3>Isso é uma mensagem de erro</h3>
+    <% } else { %>
+        <h3>Nenhum erro</h3> 
+    <% } %>
+    
+    <% produtos.forEach((produto)=>{ %>
+        <hr>
+        <h3>Produto: <%= produto.nome %></h3>
+        <p>Preço: R$<%= produto.preco %></p>
+    <% }) %>
+
+    <img src="/img/kuluniana_logo.png" width="50px" alt="">
+
+</body>
+</html>

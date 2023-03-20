@@ -1,0 +1,104 @@
+body {
+    background-color: #e3fff6;
+}
+
+span.title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#formulario-pergunta, #pergunta, #perguntas {
+    margin-top: 5vh;
+}
+
+div#usuario {
+    background-color: rgb(67, 67, 67);
+    color: white;
+    border-radius: 0 0 5px 5px;
+    text-decoration: none;
+}
+
+p#resp {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a#edit {
+    text-decoration: none;
+    color: white;
+}
+
+a#edit:hover {
+    color: darkgray;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+span#usuario {
+    margin-left: 10px;
+    font-style: italic;
+}
+span#edit-resp {
+    float: right;
+    margin-right: 5px;
+}
+
+#user {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card {
+    border: 1px solid rgba(71, 71, 71, 0.6);
+    border-radius: 5px 5px 0 0;
+    color: rgba(35, 35, 35, 0.852);
+}
+
+svg {
+    margin-bottom: 5px;
+    margin-right: 3px;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.navbar-brand {
+    margin-left: 1rem;
+}
+
+#pergunta-description {
+    background-color: white;
+    border: 1px solid #ccc;
+    min-height: 15vh;
+    text-align: justify;
+}
+
+#pergunta-description p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: #505050;
+}
+
+div#edit {
+    background-color: rgb(67, 67, 67);
+    color: white;
+    border-radius: 5px 5px 0 0;
+    text-decoration: none;
+    margin-top: 0;
+    text-align: end;
+}
+
+div#edit p {
+    margin: 0;
+    margin-right: 4px;
+}
+
+p#usuario {
+    margin-left: 5px;
+}
